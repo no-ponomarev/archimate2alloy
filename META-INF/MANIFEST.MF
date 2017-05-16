@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Export Archimate model to Alloy
+Bundle-SymbolicName: com.archimatetool.archimate2alloy;singleton:=true
+Bundle-Version: 4.0.0.qualifier
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ com.archimatetool.editor
+Bundle-ClassPath: lib/alloy4.2.jar,
+ .
